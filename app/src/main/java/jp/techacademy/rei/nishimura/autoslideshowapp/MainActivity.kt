@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mTimer: Timer? = null
 
-    // タイマー用の時間のための変数
-    private var mTimerSec = 0.0
     private var mHandler = Handler()
 
     override fun onCreate(savedInstanceState: Bundle?) {
